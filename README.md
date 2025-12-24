@@ -9,24 +9,23 @@ Para compilar e executar o programa:
 2. Em seguida, utilize 'make run' para executá-los.
 3. Para limpar arquivos gerados pela compilação, utiliza 'make clean'.
 
-Estrutura do projeto:
+O projeto inclui os seguintes arquivos:
 
-├── main.c          # Programa principal
-├── soma.c/.h       # Função soma
-├── subtrai.c/.h    # Função subtrai
-├── mult.c/.h       # Função mult
-├── div.c/.h        # Função div
-├── poten.c/.h      # Função poten
-├── fatorial.c/.h   # Função fatorial
-├── Makefile        # Regras de compilação
-├── .gitignore      # Ignora artefatos de build
-└── README.md       # Guia do projeto
+* main.c          # Programa principal
+* soma.c/.h       # Função soma
+* subtrai.c/.h    # Função subtrai
+* mult.c/.h       # Função mult
+* div.c/.h        # Função div
+* poten.c/.h      # Função poten
+* fatorial.c/.h   # Função fatorial
+* Makefile        # Regras de compilação
+* README.md       # Instruções para o uso do projeto e descrição do mesmo
 
 Exemplo de saída com os valores atuais em main.c:
 
-2 + 5:  7
-3 - 2:  1
-36 / 6: 6
-3 * 6:  18
-2^12:   4096
-6!:     720
+* 2 + 5:  7
+* 3 - 2:  1
+* 36 / 6: 6
+* 3 * 6:  18
+* 2^12:   4096
+* 6!:     720
